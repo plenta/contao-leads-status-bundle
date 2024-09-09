@@ -1,0 +1,46 @@
+{
+    "name": "plenta/contao-leads-status-bundle",
+    "type": "contao-bundle",
+    "description": "Status for Termin42/Leads",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Plenta.io",
+            "homepage": "https://plenta.io"
+        }
+    ],
+    "funding": [{
+        "type": "github",
+        "url": "https://github.com/sponsors/plenta"
+    }],
+    "support":{
+        "issues": "https://github.com/plenta/contao-leads-status-bundle/issues",
+        "source": "https://github.com/plenta/contao-leads-status-bundle",
+    },
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "contao/conflicts": "@dev",
+        "contao/core-bundle": "^5.3",
+        "terminal42/contao-leads": "^3.0"
+    },
+    "require-dev": {
+        "contao/manager-bundle": "^5.3"
+    },
+    "extra": {
+        "contao-manager-plugin": "Plenta\\LeadsStatusBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plenta\\LeadsStatusBundle\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "contao-components/installer": true,
+            "contao/manager-plugin": true,
+            "contao-community-alliance/composer-plugin": true
+        }
+    }
+}
