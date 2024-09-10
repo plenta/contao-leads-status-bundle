@@ -15,7 +15,7 @@
     }],
     "support":{
         "issues": "https://github.com/plenta/contao-leads-status-bundle/issues",
-        "source": "https://github.com/plenta/contao-leads-status-bundle",
+        "source": "https://github.com/plenta/contao-leads-status-bundle"
     },
     "require": {
         "php": "^8.0",

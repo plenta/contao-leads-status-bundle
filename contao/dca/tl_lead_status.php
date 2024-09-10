@@ -29,7 +29,7 @@ $GLOBALS['TL_DCA']['tl_lead_status'] = [
     ],
 
     'palettes' => [
-        'default' => '{title_legend},name,color',
+        'default' => '{title_legend},name,color,defaultValue',
     ],
 
     'fields' => [
@@ -44,11 +44,21 @@ $GLOBALS['TL_DCA']['tl_lead_status'] = [
             'eval' => ['mandatory' => true, 'maxlength' => 255, 'tl_class' => 'w50'],
             'sql' => "varchar(255) NOT NULL default ''"
         ],
-
         'color' => [
             'inputType'=> 'text',
-            'eval'=> array('maxlength'=>6, 'colorpicker'=>true, 'isHexColor'=>true, 'decodeEntities'=>true, 'tl_class'=>'w25 wizard'),
+            'eval'=> [
+                'maxlength' => 6,
+                'colorpicker' => true,
+                'isHexColor' => true,
+                'decodeEntities' => true,
+                'tl_class' => 'w50 wizard'
+            ],
             'sql'=> "varchar(6) COLLATE ascii_bin NOT NULL default ''"
+        ],
+        'defaultValue' => [
+            'inputType' => 'checkbox',
+            'eval' => ['unique' => true, 'doNotCopy' => true, 'tl_class' => 'clr'],
+            'sql' => ['type' => 'boolean', 'default' => false],
         ],
     ],
 ];

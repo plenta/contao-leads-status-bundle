@@ -10,7 +10,7 @@ $GLOBALS['TL_DCA']['tl_lead']['list']['label']['fields'][] = 'status';
 
 $GLOBALS['TL_DCA']['tl_lead']['list']['global_operations']['lead_status'] = [
     'href' => 'table=tl_lead_status',
-    'class' => 'header_css_import',
+    'icon' => 'favorites.svg',
 ];
 
 $GLOBALS['TL_DCA']['tl_lead']['list']['operations']['edit'] = [

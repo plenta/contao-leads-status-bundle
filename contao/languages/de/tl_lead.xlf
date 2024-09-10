@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file>
+        <body>
+            <trans-unit id="tl_lead.lead_status.0">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="tl_lead.lead_status.1">
+                <source>Status</source>
+                <target>Verwalten Sie hier ihren Status</target>
+            </trans-unit>
+            <trans-unit id="tl_lead.status.0">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="tl_lead.status.1">
+                <source>Wählen Sie ihren Anfragestatus</source>
+                <target>Wählen Sie ihren Anfragestatus</target>
+            </trans-unit>
+            <trans-unit id="tl_lead.status_legend">
+                <source>Anfragestatus</source>
+                <target>Anfragestatus</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

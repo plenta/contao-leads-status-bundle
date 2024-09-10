@@ -28,6 +28,28 @@ class LeadStatusLabelListener
 
         $result = $this->leadLabelListener->__invoke($row, $label);
 
-        return '['.$status['status'].'] '.$result;
+        return $this->getStatus((int) $status['status']).' '.$result;
+    }
+
+    public function getStatus(int $id): ?string
+    {
+        if (0 === $id || null === $id) {
+            return '';
+        }
+
+        $status = $this->connection
+            ->createQueryBuilder()
+            ->select('name', 'color')
+            ->from('tl_lead_status')
+            ->where('id=:id')
+            ->setParameter('id', $id)
+            ->fetchAssociative()
+        ;
+
+        if (!empty($status['color'])) {
+            return '<span style="color: #'.$status['color'].'">['.$status['name'].']</span>';
+        }
+
+        return $status['name'];
     }
 }

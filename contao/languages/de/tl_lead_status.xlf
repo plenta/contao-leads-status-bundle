@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file>
+        <body>
+            <trans-unit id="tl_lead_status.title_legend">
+                <source>Anfragestatus</source>
+                <target>Anfragestatus</target>
+            </trans-unit>
+            <trans-unit id="tl_lead_status.name.0">
+                <source>Status</source>
+                <target>Status</target>
+            </trans-unit>
+            <trans-unit id="tl_lead_status.name.1">
+                <source>Geben Sie hier ihren Status ein.</source>
+                <target>Geben Sie hier ihren Status ein.</target>
+            </trans-unit>
+            <trans-unit id="tl_lead_status.color.0">
+                <source>Farbe</source>
+                <target>Farbe</target>
+            </trans-unit>
+            <trans-unit id="tl_lead_status.color.1">
+                <source>Wählen Sie ihren Anzeigefarbe.</source>
+                <target>Wählen Sie ihren Anzeigefarbe.</target>
+            </trans-unit>
+            <trans-unit id="tl_lead_status.defaultValue.0">
+                <source>Standard</source>
+                <target>Standard</target>
+            </trans-unit>
+            <trans-unit id="tl_lead_status.defaultValue.1">
+                <source>Wählen Sie diese Option, wenn dieser Status beim Erstellen eines Leads als Standard festgelegt werden soll.</source>
+                <target>Wählen Sie diese Option, wenn dieser Status beim Erstellen eines Leads als Standard festgelegt werden soll.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
