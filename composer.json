@@ -1,7 +1,7 @@
 {
     "name": "plenta/contao-leads-status-bundle",
     "type": "contao-bundle",
-    "description": "Status for Termin42/Leads",
+    "description": "Status for Terminal42/Leads",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
