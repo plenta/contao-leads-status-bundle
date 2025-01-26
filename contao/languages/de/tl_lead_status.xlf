@@ -19,16 +19,16 @@
                 <target>Farbe</target>
             </trans-unit>
             <trans-unit id="tl_lead_status.color.1">
-                <source>Wählen Sie ihren Anzeigefarbe.</source>
-                <target>Wählen Sie ihren Anzeigefarbe.</target>
+                <source>Wählen Sie ihre Anzeigefarbe.</source>
+                <target>Wählen Sie ihre Anzeigefarbe.</target>
             </trans-unit>
             <trans-unit id="tl_lead_status.defaultValue.0">
                 <source>Standard</source>
                 <target>Standard</target>
             </trans-unit>
             <trans-unit id="tl_lead_status.defaultValue.1">
-                <source>Wählen Sie diese Option, wenn dieser Status beim Erstellen eines Leads als Standard festgelegt werden soll.</source>
-                <target>Wählen Sie diese Option, wenn dieser Status beim Erstellen eines Leads als Standard festgelegt werden soll.</target>
+                <source>Wählen Sie diese Option, wenn dieser Status beim erstellen eines Leads als Standard festgelegt werden soll.</source>
+                <target>Wählen Sie diese Option, wenn dieser Status beim erstellen eines Leads als Standard festgelegt werden soll.</target>
             </trans-unit>
         </body>
     </file>

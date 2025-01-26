@@ -1,12 +1,18 @@
 <?php
 
+/**
+ * Plenta Jobs Basic Bundle for Contao Open Source CMS
+ *
+ * @copyright     Copyright (c) 2024-2025, Plenta.io
+ * @author        Plenta.io <https://plenta.io>
+ * @link          https://github.com/plenta/
+ */
+
 namespace Plenta\LeadsStatusBundle\EventListener\DataContainer;
 
-use Contao\CoreBundle\DependencyInjection\Attribute\AsCallback;
 use Contao\DataContainer;
 use Doctrine\DBAL\Connection;
-use ErdmannFreunde\ContactBundle\Contao\Model\ContactCategoryModel;
-use ErdmannFreunde\ContactBundle\Contao\Model\ContactModel;
+use Contao\CoreBundle\DependencyInjection\Attribute\AsCallback;
 
 #[AsCallback(table: 'tl_lead', target: 'fields.status.options')]
 class LeadStatusOptionsListener

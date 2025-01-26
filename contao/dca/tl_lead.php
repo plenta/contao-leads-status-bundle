@@ -3,7 +3,6 @@
 use Contao\DC_Table;
 use Doctrine\DBAL\Platforms\AbstractMySQLPlatform;
 
-
 $GLOBALS['TL_DCA']['tl_lead']['config']['notEditable'] = false;
 
 $GLOBALS['TL_DCA']['tl_lead']['list']['label']['fields'][] = 'status';
